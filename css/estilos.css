@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+
+	   
+}
+
+@font-face {
+    font-family: 'angsana_newregular';
+    src: url('../fonts/angsa-webfont.woff2') format('woff2'),
+         url('../fonts/angsa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+footer{
+	font-family: "Open Sans", sans-serif;
+
+}
+
+body{
+	background:#E6E6E6;
+	color:#FFFFFF;
+	font-family: "angsana_newregular";
+	font-size: 1.5em;
+}
+
+h1{
+	color: #000000;
+	margin: 0.25em;
+	border-radius: 0.5em;
+	padding: 2.9em;
+	text-align: center;
+	text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
+	background-image: url(../img/Imagen1.png);
+	background-size: cover;
+	background-position: center center;
+	
+}
+
+
+footer{
+	color: #000000;
+	border-radius: 20px;
+	margin:0.5em;
+	padding: 0.25em;
+	text-align: center;
+	background-image: url(../img/Imagen2.png);
+	background-size: cover;
+	background-position: center center;
+}
+nav, li, a, ul{
+	background:#005883;
+	color: #FFFFFF;
+	padding: 10px 25px;
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	border-radius: 10px;
+	margin-top: justify;
+	
+}
+
+a:hover {
+	background: #000000;
+
+}
+
+ul {
+	display: none;
+	position: absolute;
+	min-height: 10em;
+	padding: 0.25px;
+	text-orientation: ju;
+}
+
+nav > li {
+float: left;
+
+}
+
+
+nav li:hover > ul{
+	display: inline-grid;
+}
+
+nav {
+
+	margin: 1em;
+
+}
+
+section#contenedor{
+	margin: 0.5em;
+	max-width: 10000px;
+	text-align: justify-all;
+	
+}
+
+section#principal, aside{
+	border-radius: 0.5em;
+	display: inline-block;
+	margin-top: 0.2em;
+	max-width: 2000px;
+	min-height: 200px;
+	vertical-align: top;
+	width: 65%;
+
+}
+
+article{
+	
+	color: #000000;
+	border-radius: 0.5em;
+	min-height: 140px;
+	min-width: 100px;
+	padding: 0.25em;
+	font-family: "angsana_newregular";
+	font-size: 1.5em;
+	text-align: justify;
+	
+}
+aside{
+	padding: 0.5em;
+	width: 30%;
+	text-align: right;
+	}
+
+
+
